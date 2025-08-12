@@ -3,7 +3,7 @@
   "id": "replace-env-extension",
   "name": "Replace Env Variables Task",
   "publisher": "aswinth",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
@@ -11,8 +11,29 @@
   ],
   "description": "Azure Pipelines task to replace environment placeholders in files.",
   "categories": ["Azure Pipelines"],
+  "tags": [
+    "azure-pipelines",
+    "environment-variables",
+    "ci-cd",
+    "devops",
+    "yaml",
+    "build-task",
+    "release-pipeline",
+    "Replace Environment Variables",
+    "replace-env",
+    "replace",
+    "env-replace",
+    "env-vars",
+    "environment",
+    "variables",
+    "task",
+    "environment-variables-replacement",
+    "env"
+  ],
+  "public": true,
+  "galleryFlags": ["Public", "Preview"],
   "icons": {
-    "default": "replace_env/icon.png"
+    "default": "icon.png"
   },
   "files": [
     {
@@ -33,5 +54,14 @@
     "details": {
       "path": "readme.md"
     }
+  },
+  "links": {
+    "support": {
+      "uri": "https://aswinthgt.vercel.app/"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/Aswinthgt/replace_env"
   }
 }

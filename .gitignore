@@ -4,3 +4,4 @@ test.yml
 vss-extension.json
 replace_env/task.json
 replace_env/package.json
+.env
