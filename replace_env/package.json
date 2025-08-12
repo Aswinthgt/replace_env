@@ -1,0 +1,24 @@
+{
+  "name": "replace_env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aswinthgt/replace_env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aswinthgt/replace_env/issues"
+  },
+  "homepage": "https://github.com/Aswinthgt/replace_env#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^5.2.1"
+  }
+}

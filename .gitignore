@@ -1,0 +1,6 @@
+node_modules
+copy-test.yml
+test.yml
+vss-extension.json
+replace_env/task.json
+replace_env/package.json

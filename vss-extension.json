@@ -1,0 +1,37 @@
+{
+  "manifestVersion": 1,
+  "id": "replace-env-extension",
+  "name": "Replace Env Variables Task",
+  "publisher": "aswinth",
+  "version": "1.0.0",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Azure Pipelines task to replace environment placeholders in files.",
+  "categories": ["Azure Pipelines"],
+  "icons": {
+    "default": "replace_env/icon.png"
+  },
+  "files": [
+    {
+      "path": "replace_env"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "replace_env",
+      "type": "ms.vss-distributed-task.task",
+      "targets": ["ms.vss-distributed-task.tasks"],
+      "properties": {
+        "name": "replace_env"
+      }
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "readme.md"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fa5cc7dc-be81-444b-a943-d59a1c08e6ad",
+  "name": "replace-env",
+  "friendlyName": "Replace Env in File",
+  "description": "Replaces Env in a file using pipeline variables",
+  "author": "Aswinth",
+  "helpMarkDown": "Replaces text like __VAR__ with pipeline variable values",
+  "category": "Utility",
+  "visibility": ["Build", "Release"],
+  "runsOn": ["Agent", "DeploymentGroup"],
+  "version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 0
+  },
+  "instanceNameFormat": "Replace Env in $(filePath)",
+  "execution": {
+    "Node20_1": {
+      "target": "index.js"
+    },
+    "Node16": {
+      "target": "index.js"
+    }
+  },
+  "inputs": [
+    {
+      "name": "filePath",
+      "type": "string",
+      "label": "File Path",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "Path to the file where Env variables should be replaced"
+    },
+    {
+      "name": "placeholderDelimiter",
+      "type": "string",
+      "label": "Placeholder Delimiter",
+      "defaultValue": "__",
+      "required": true,
+      "helpMarkDown": "Unique string used to wrap variable names (e.g. __VAR__)"
+    }
+  ]
+}
